@@ -34,7 +34,7 @@ class NRController extends Controller
 		$dep_dat = $dep_dat."&deployment[revision]=".$dep_rev;
 		
 		//There should be no changes necessary beyond this point
-		
+		//these lines are commented
 		//deployment url at New Relic
 		//$url = "https://api.newrelic.com/deployments.xml";
 		$url = "https://api.newrelic.com/v2/applications/".$app_id."/deployments.json";
