@@ -26,6 +26,7 @@ class NRController extends Controller
 		//compose the data string for curl
 		
 		$dep_dat = "deployment[app_name]=".$app_name;
+
 		$dep_dat = $dep_dat."&deployment[app_id]=".$app_id;
 		$dep_dat = $dep_dat."&deployment[description]=".$dep_description;
 		$dep_dat = $dep_dat."&deployment[changelog]=".$dep_change;
